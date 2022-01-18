@@ -46,6 +46,11 @@ jQuery(document).ready(function($) {
         }
       }
     });
+
+  $('body').scrollspy({
+    target: '.fixed-side-navbar',
+    offset: 200
+  });
      
   // smoothscroll on sidenav click
 
