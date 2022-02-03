@@ -174,7 +174,7 @@ a:hover { color: #b8dbd9; }
 
 .tabs-content {
   padding-top: 10vh;
-  background-image: url(../img/3rd-section.jpg);
+  background-image: url(../img/2nd-section.jpg);
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -234,31 +234,6 @@ section {
   clear:both;
 }
 
-.projects-content {
-  padding-top: 20vh;
-  background-image: url(../img/2nd-section.jpg);
-}
-
-.projects-content .item img {
-  width: 100%;
-}
-
-.projects-content .item {
-  margin: 15px;
-}
-
-.projects-content .item .text-content {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  padding: 25px;
-}
-
-.projects-content .item .text-content h4 {
-  margin-top: 0px;
-  font-size: 19px;
-  font-weight: 600;
-}
-
 .owl-pagination {
   margin-top: 40px;
   opacity: 1;
@@ -282,7 +257,7 @@ section {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 8vh;
-  background-image: url(../img/4th-section.jpg);
+  background-image: url(../img/3rd-section.jpg);
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -314,105 +289,22 @@ h4, .h4 {
   margin: 20px auto 15px auto;
 }
 
-.about-section .service-item img {
-  padding: 13px;
-}
-
 .about-section .left-text p {
   color: #fff;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 
 .about-section .left-text ul {
-  padding: 0;
   margin-top: 30px;
   list-style: none;
   text-align: left;
+  padding-bottom: 25px;
 }
 
 .about-section .left-text ul li {
   margin: 15px 0px;
   font-weight: 600;
-  color: #fff;
-}
-
-.contact-content {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 16vh;
-  background-image: url(../img/5th-section.jpg);
-}
-
-.contact-content h4 {
-  font-size: 24px;
-  font-weight: 500;
-  color: #fff;
-}
-
-.contact-form {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 30px 25px;
-  margin-bottom: 30px;
-}
-
-#contact input {
-  border-radius: 3px;
-  padding-left: 15px;
-  font-size: 13px;
-  color: #232323;
-  background-color: rgba(250, 250, 250, 1);
-  outline: none;
-  border: none;
-  box-shadow: none;
-  line-height: 50px;
-  height: 50px;
-  width: 100%;
-  margin-bottom: 30px;
-}
-
-#contact textarea {
-  border-radius: 3px;
-  padding-left: 15px;
-  padding-top: 10px;
-  font-size: 13px;
-  color: #232323;
-  background-color: rgba(250, 250, 250, 1);
-  outline: none;
-  border: none;
-  box-shadow: none;
-  height: 165px;
-  max-height: 220px;
-  width: 100%;
-  margin-bottom: 25px;
-}
-
-#contact button {
-  display: inline-block;
-  background-color: #FDB035;
-  padding: 15px 24px;
-  width: 100%;
-  border-radius: 3px;
-  text-transform: uppercase;
-  font-size: 11px;
-  color: #fff;
-  font-weight: 700;
-  text-decoration: none;
-  letter-spacing: 0.5px;
-}
-
-#contact label{
-  color: #fff;
-}
-
-.map {
-  margin-bottom: 30px;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 30px 20px;
-}
-
-.map h4 {
-  font-size: 24px;
-  font-weight: 500;
   color: #fff;
 }
 
